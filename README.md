@@ -16,7 +16,7 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 6. [Column Naming Conventions](#column-naming-conventions)
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
-7. [Stored Procedure](#stored-procedure-naming-conventions)
+7. [Stored Procedure](#stored-procedure)
 8. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
 
 ---

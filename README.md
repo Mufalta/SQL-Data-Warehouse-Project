@@ -8,9 +8,9 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 
 1. [Project Overview](#project-overview)
 2. [Data Architecture](#data-architecture)
-   - [Bronze Layer](#bronze-layer)
-   - [Silver Layer](#silver-layer)
-   - [Gold Layer](#gold-layer)
+   - [1. Bronze Layer](#1.-bronze-layer)
+   - [2. Silver Layer](#2.-silver-layer)
+   - [3. Gold Layer](#3.-gold-layer)
 4. [General Principles](#general-principles)
 5. [Table Naming Conventions](#table-naming-conventions)
    - [Bronze Rules](#bronze-rules)
@@ -21,9 +21,9 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
    - [Technical Columns](#technical-columns)
 7. [Stored Procedure](#stored-procedure-naming-conventions)
 8. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
-   - [gold.dim_customers](gold.dim_customers)
-   - [gold.dim_products](gold.dim_products)
-   - [gold.fact_sales](gold.fact_sales)
+   - [1. gold.dim_customers](#1.-gold.dim_customers)
+   - [2. gold.dim_products](#2.-gold.dim_products)
+   - [3. gold.fact_sales](#3.-gold.fact_sales)
 
 ---
 
@@ -51,19 +51,19 @@ The data warehouse in this project will be built using the Medallion Architectur
 ---
 
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Sources-System-Interview.png)
-### **Bronze Layer**
+### 1. **Bronze Layer**
 Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Bronze-Layer.png)
 
 ---
 
-### **Silver Layer**
+### 2. **Silver Layer**
 Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Silver-Layer.png)
 
 ---
 
-### **Gold Layer**
+### 3. **Gold Layer**
 Contains business-ready data structured in a star schema for reporting and analytical purposes:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Gold-Layer.png)
 

@@ -8,9 +8,6 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 
 1. [Project Overview](#project-overview)
 2. [Data Architecture](#data-architecture)
-   - [Bronze Layer](#bronze-layer)
-   - [Silver Layer](#silver-layer)
-   - [Gold Layer](#gold-layer)
 4. [General Principles](#general-principles)
 5. [Table Naming Conventions](#table-naming-conventions)
    - [Bronze Rules](#bronze-rules)
@@ -48,19 +45,19 @@ The data warehouse in this project will be built using the Medallion Architectur
 ---
 
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Sources-System-Interview.png)
-### **Bronze Layer**
+### 1. **Bronze Layer**
 Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Bronze-Layer.png)
 
 ---
 
-### **Silver Layer**
+### 2. **Silver Layer**
 Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Silver-Layer.png)
 
 ---
 
-### **Gold Layer**
+### 3. **Gold Layer**
 Contains business-ready data structured in a star schema for reporting and analytical purposes:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Gold-Layer.png)
 

@@ -51,19 +51,19 @@ The data warehouse in this project will be built using the Medallion Architectur
 ---
 
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Sources-System-Interview.png)
-### 1. **Bronze Layer**
+### **Bronze Layer**
 Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Bronze-Layer.png)
 
 ---
 
-### 2. **Silver Layer**
+### **Silver Layer**
 Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Silver-Layer.png)
 
 ---
 
-### 3. **Gold Layer**
+### **Gold Layer**
 Contains business-ready data structured in a star schema for reporting and analytical purposes:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Gold-Layer.png)
 
@@ -141,7 +141,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### 1. **gold.dim_customers**
+### **gold.dim_customers**
 - **Purpose:** Stores customer details enriched with demographic and geographic data.
 - **Columns:**
 
@@ -160,7 +160,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### 2. **gold.dim_products**
+### **gold.dim_products**
 - **Purpose:** Provides information about the products and their attributes.
 - **Columns:**
 
@@ -180,7 +180,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### 3. **gold.fact_sales**
+### **gold.fact_sales**
 - **Purpose:** Stores transactional sales data for analytical purposes.
 - **Columns:**
 

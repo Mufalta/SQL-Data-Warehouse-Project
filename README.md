@@ -8,16 +8,19 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 
 1. [Project Overview](#project-overview)
 2. [Data Architecture](#data-architecture)
-3. [General Principles](#general-principles)
-4. [Table Naming Conventions](#table-naming-conventions)
+   - [Bronze Layer](#bronze-layer)
+   - [Silver Layer](#silver-layer)
+   - [Gold Layer](#gold-layer)
+4. [General Principles](#general-principles)
+5. [Table Naming Conventions](#table-naming-conventions)
    - [Bronze Rules](#bronze-rules)
    - [Silver Rules](#silver-rules)
    - [Gold Rules](#gold-rules)
-5. [Column Naming Conventions](#column-naming-conventions)
+6. [Column Naming Conventions](#column-naming-conventions)
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
-6. [Stored Procedure](#stored-procedure-naming-conventions)
-7. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
+7. [Stored Procedure](#stored-procedure-naming-conventions)
+8. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
    - [gold.dim_customers](gold.dim_customers)
    - [gold.dim_products](gold.dim_products)
    - [gold.fact_sales](gold.fact_sales)
@@ -43,10 +46,22 @@ There are a few types of methods to build a data warehouse:
 
 The data warehouse in this project will be built using the Medallion Architecture because it is the simplest, dividing data processing into three clear stages, **Bronze**, **Silver**, and **Gold**:
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Architecture.png)
+![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Medallion-Architecture-Layer.png)
 
-1. **Bronze Layer**: Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database.  
-2. **Silver Layer**: Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis.  
-3. **Gold Layer**: Contains business-ready data structured in a star schema for reporting and analytical purposes.  
+---
+
+### **Bronze Layer**
+Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database.
+
+---
+
+### **Silver Layer**
+Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis.
+
+---
+
+### **Gold Layer**
+Contains business-ready data structured in a star schema for reporting and analytical purposes.
 
 ---
 

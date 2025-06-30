@@ -6,8 +6,8 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 ---
 ## Table of Contents
 
-1. [Data Architecture](#data-architecture)
-2. [Project Overview](#project-overview)
+1. [Project Overview](#project-overview)
+2. [Data Architecture](#data-architecture)
 ---
 
 ## Project Overview

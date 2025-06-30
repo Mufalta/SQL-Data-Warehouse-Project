@@ -7,6 +7,15 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 ## Table of Contents
 
 1. [Data Architecture](#data-architecture)
+2. [Project Overview](#project-overview)
+---
+
+## Project Overview
+
+This project involves:
+1. **Data Architecture**: Building a modern data warehouse using the Medallion Architecture, which organizes data into Bronze, Silver, and Gold layers.  
+2. **ETL Pipelines**: Moving data from source systems into the warehouse through extraction, transformation, and loading processes.  
+3. **Data Modeling**: Creating fact and dimension tables structured for efficient analytical querying.  
 ---
 
 ## Data Architecture

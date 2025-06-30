@@ -8,8 +8,8 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 
 1. [Project Overview](#project-overview)
 2. [Data Architecture](#data-architecture)
-   - [1. Bronze Layer](#1.-bronze-layer)
-   - [2. Silver Layer](#2.-silver-layer)
+   - [1. Bronze Layer](#1.bronze-layer)
+   - [2. Silver Layer](#2.silver-layer)
    - [3. Gold Layer](#3.-gold-layer)
 4. [General Principles](#general-principles)
 5. [Table Naming Conventions](#table-naming-conventions)

@@ -4,7 +4,7 @@ Hi 👋 and welcome to the **Data Warehouse Project** repository!
 First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to build this modern data warehouse using SQL Server. This project demonstrates how to create a modern data warehouse for data analytics purposes. It closely reflects the type of projects that data engineers work on in real-world scenarios.
 
 ---
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Data Architecture](#data-architecture)
@@ -21,7 +21,7 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 
 ---
 
-## 🗂️ Project Overview
+## Project Overview
 
 This project involves:
 1. **Data Architecture**: Building a modern data warehouse using the Medallion Architecture, which organizes data into Bronze, Silver, and Gold layers.  
@@ -30,7 +30,7 @@ This project involves:
 
 ---
 
-## 🏗️ Data Architecture
+## Data Architecture
 
 There are a few types of methods to build a data warehouse:  
 - Inmon  
@@ -63,13 +63,13 @@ Contains business-ready data structured in a star schema for reporting and analy
 
 ---
 
-## ⚖️ **General Principles**
+## **General Principles**
 
 - **Naming Conventions**: Use snake_case, with lowercase letters and underscores (`_`) to separate words.
 - **Language**: Use English for all names.
 - **Avoid Reserved Words**: Do not use SQL reserved words as object names.
 
-## 🏷️ **Table Naming Conventions**
+## **Table Naming Conventions**
 
 ### **Bronze Rules**
 - All names must start with the source system name, and table names must match their original names without renaming.
@@ -102,7 +102,7 @@ Contains business-ready data structured in a star schema for reporting and analy
 | `fact_`     | Fact table                       | `fact_sales`                            |
 | `report_`   | Report table                     | `report_customers`, `report_sales_monthly`   |
 
-## 🔠 **Column Naming Conventions**
+## **Column Naming Conventions**
 
 ### **Surrogate Keys**  
 - All primary keys in dimension tables must use the suffix `_key`.
@@ -118,7 +118,7 @@ Contains business-ready data structured in a star schema for reporting and analy
   - `<column_name>`: Descriptive name indicating the column's purpose.  
   - Example: `dwh_load_date` → System-generated column used to store the date when the record was loaded.
  
-## ⚙️ **Stored Procedure**
+## **Stored Procedure**
 
 - All stored procedures used for loading data must follow the naming pattern:
 - **`load_<layer>`**.
@@ -130,7 +130,7 @@ Contains business-ready data structured in a star schema for reporting and analy
 
 ---
 
-## 📚 Data Catalog for Gold Layer
+## Data Catalog for Gold Layer
 The Gold Layer is the business-level data representation, structured to support analytical and reporting use cases. It consists of **dimension tables** and **fact tables** for specific business metrics.
 
 ---

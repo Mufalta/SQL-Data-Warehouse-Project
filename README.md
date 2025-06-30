@@ -21,9 +21,6 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
    - [Technical Columns](#technical-columns)
 7. [Stored Procedure](#stored-procedure-naming-conventions)
 8. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
-   - [gold.dim_customers](#gold-dim-customers)
-   - [gold.dim_products](#gold.dim_products)
-   - [gold.fact_sales](#gold.fact_sales)
 
 ---
 
@@ -141,7 +138,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### **gold.dim_customers**
+### 1. **gold.dim_customers**
 - **Purpose:** Stores customer details enriched with demographic and geographic data.
 - **Columns:**
 
@@ -160,7 +157,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### **gold.dim_products**
+### 2. **gold.dim_products**
 - **Purpose:** Provides information about the products and their attributes.
 - **Columns:**
 
@@ -180,7 +177,7 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### **gold.fact_sales**
+### 3. **gold.fact_sales**
 - **Purpose:** Stores transactional sales data for analytical purposes.
 - **Columns:**
 

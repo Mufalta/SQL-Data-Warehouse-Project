@@ -50,7 +50,6 @@ The data warehouse in this project will be built using the Medallion Architectur
 
 ---
 
-![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Source-System-Interview.png)
 ### **Bronze Layer**
 Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database.
 

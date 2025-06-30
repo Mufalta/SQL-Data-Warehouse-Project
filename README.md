@@ -20,7 +20,7 @@ The data warehouse in this project will be built using the Medallion Architectur
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Architecture.png)
 
 1. **Bronze Layer**: Captures unprocessed data directly from source systems. Data is loaded from CSV files into the SQL Server database.  
-2. **Silver Layer**: Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis.  
-3. **Gold Layer**: Contains business-ready data structured in a star schema for reporting and analytical purposes.  
+1. **Silver Layer**: Involves cleaning, standardizing, and normalizing the data to make it suitable for analysis.  
+1. **Gold Layer**: Contains business-ready data structured in a star schema for reporting and analytical purposes.  
 
 ---

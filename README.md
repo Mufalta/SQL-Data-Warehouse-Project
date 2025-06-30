@@ -21,7 +21,7 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
    - [Technical Columns](#technical-columns)
 7. [Stored Procedure](#stored-procedure-naming-conventions)
 8. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
-   - [gold.dim_customers](#gold.dim_customers)
+   - [gold.dim_customers](#gold-dim-customers)
    - [gold.dim_products](#gold.dim_products)
    - [gold.fact_sales](#gold.fact_sales)
 

@@ -40,7 +40,6 @@ There are a few types of methods to build a data warehouse:
 - **Medallion Architecture**
 
 The data warehouse in this project will be built using the Medallion Architecture because it is the simplest, dividing data processing into three clear stages, **Bronze**, **Silver**, and **Gold**:
-![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Architecture.png)
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Medallion-Architecture-Layer.png)
 
 ---

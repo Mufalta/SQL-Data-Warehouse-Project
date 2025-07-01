@@ -135,6 +135,7 @@ Contains business-ready data structured in a star schema for reporting and analy
 
 After creating tables and inserting data into those tables, understanding their relationships is essential for meaningful data:  
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Integration.png)
+![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Flow.png)
 
 ---
 

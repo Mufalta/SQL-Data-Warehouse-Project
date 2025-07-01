@@ -17,7 +17,8 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
 7. [Stored Procedure](#stored-procedure)
-8. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
+8. [Data Integration](#data-integration)
+9. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
 
 ---
 
@@ -127,6 +128,13 @@ Contains business-ready data structured in a star schema for reporting and analy
   - Example: 
     - `load_bronze` → Stored procedure for loading data into the Bronze layer.
     - `load_silver` → Stored procedure for loading data into the Silver layer.
+
+---
+
+## Data Integration
+
+After creating and populating tables, understanding their relationships is essential for meaningful joins:  
+![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Integration.png)
 
 ---
 

@@ -133,7 +133,7 @@ Contains business-ready data structured in a star schema for reporting and analy
 
 ## Data Integration
 
-After creating and populating tables, understanding their relationships is essential for meaningful joins:  
+After creating tables and inserting data into those tables, then understanding their relationships is essential for meaningful joins:  
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Integration.png)
 
 ---

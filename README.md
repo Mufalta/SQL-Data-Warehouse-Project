@@ -17,7 +17,7 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
 7. [Stored Procedure](#stored-procedure)
-8. [Data Integration](#data-integration)
+8. [Data Pipeline](#data-pipeline)
 9. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
 
 ---
@@ -131,9 +131,9 @@ Contains business-ready data structured in a star schema for reporting and analy
 
 ---
 
-## Data Integration
+## Data Pipeline
 
-After creating tables and inserting data into those tables, then understanding their relationships is essential for meaningful joins:  
+After creating tables and inserting data into those tables, understanding their relationships is essential for meaningful data:  
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Integration.png)
 
 ---

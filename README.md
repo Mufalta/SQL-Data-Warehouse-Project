@@ -18,7 +18,8 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
    - [Technical Columns](#technical-columns)
 7. [Stored Procedure](#stored-procedure)
 8. [Data Pipeline](#data-pipeline)
-9. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
+9. [Data Model](#data-model)
+10. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
 
 ---
 
@@ -145,6 +146,13 @@ After creating tables and inserting data into those tables, understanding their 
 ---
 
 ![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Flow.png)
+
+---
+
+## Data Model
+
+Finally, we have built a star schema to make it easier to understand and analyze the relationships between customers, products, and sales data:
+![](https://github.com/Mufalta/SQL-Data-Warehouse-Project/blob/main/images/Data-Model.png)
 
 ---
 

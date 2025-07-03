@@ -8,18 +8,19 @@ First of all, a huge thanks to **Baraa Khatib Salkini** for inspiring me to buil
 
 1. [Project Overview](#project-overview)
 2. [Data Architecture](#data-architecture)
-4. [General Principles](#general-principles)
-5. [Table Naming Conventions](#table-naming-conventions)
+3. [General Principles](#general-principles)
+4. [Table Naming Conventions](#table-naming-conventions)
    - [Bronze Rules](#bronze-rules)
    - [Silver Rules](#silver-rules)
    - [Gold Rules](#gold-rules)
-6. [Column Naming Conventions](#column-naming-conventions)
+5. [Column Naming Conventions](#column-naming-conventions)
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
-7. [Stored Procedure](#stored-procedure)
-8. [Data Pipeline](#data-pipeline)
-9. [Data Model](#data-model)
-10. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
+6. [Stored Procedure](#stored-procedure)
+7. [Data Pipeline](#data-pipeline)
+8. [Data Model](#data-model)
+9. [Data Catalog for Gold Layer](#data-catalog-for-gold-layer)
+10. [Exploratory Data Analysis](#exploratory-data-analysis)
 
 ---
 
@@ -217,3 +218,8 @@ The Gold Layer is the business-level data representation, structured to support 
 | price           | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25).      |
 
 ---
+
+## Exploratory Data Analysis
+
+After the Data Warehouse is build already, now it's time to dive deeply into Exploratory Data Analysis in order to find some business insights from the data we've organized before.  
+Coming soon!

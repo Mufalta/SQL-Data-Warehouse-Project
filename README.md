@@ -221,5 +221,5 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ## Exploratory Data Analysis
 
-After the Data Warehouse is build already, now it's time to dive deeply into Exploratory Data Analysis in order to find some business insights from the data we've organized before.  
+After building the data warehouse, it’s time to dive into Exploratory Data Analysis (EDA) to uncover business insights from the data we’ve organized.  
 Coming soon!
